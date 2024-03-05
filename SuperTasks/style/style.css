@@ -44,11 +44,17 @@ h2, li, p, s {
     padding: 20px;
 }
 
-.linha:hover {
+.linha-azul {
     background-color: #194E78;
+    margin-top: 10px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 56%;
     border: 2px solid;
-    border-color: #2095EE ;
+    border-color: #2095EE ;  
+    padding: 20px;
 }
+
 
 #Copyright {
     margin-top: 40px;
@@ -60,29 +66,3 @@ h2, li, p, s {
     text-align: center;
     background-color: rgb(38, 38, 38); 
 }
-
-
-
-
-
-
-
-/* li {
-    border: 1px solid;
-    list-style: none;
-    padding: 15px;
-    background-color: rgb(38, 38, 38);
-    margin-top: 10px;
-    font-size: 18px;
-    width: 600px;
-    margin: 0 auto;
-}
-
-.div-container {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    display: block;
-}
-
- */
