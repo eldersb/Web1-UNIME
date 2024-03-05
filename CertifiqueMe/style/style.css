@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid rgb(138, 138, 138);
+    border-top: 10px solid blue;
+    padding: 30px;
+    width: 600px;
+    
+    margin: 150px 0 150px 200px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 8px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    margin-top: 40px;
+}
+
+.certifique {
+    color: blue;
+}
+
+span {
+    font-weight: bold;
+
+}
+
+#p-cinza, hr {
+    color: rgb(99, 99, 99);
+}
+
+/* hr {
+    border: 1px solid rgb(99, 99, 99);
+} */
