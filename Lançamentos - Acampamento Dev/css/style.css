@@ -43,9 +43,75 @@ body {
 
 .card .product_description {
     width: 280px;
+    padding: 30px 0;
 }
 
 .card .product_description h2 {
     font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
 
+.card .product_description .old_price {
+    color: #646464;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.card .product_description .new_price {
+    color: #EBEE00;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.buy_button {
+    width: 177px;
+    text-align: center;
+    background-color: #3A3B3C;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+
+.like_button {
+    width: 65px;
+    text-align: center;
+    background-color: #3A3B3C;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+}
+
+ .buy_button:hover, .like_button:hover {
+    background-color: #242526;
+    border: 2px solid #BCBCBC;
+    cursor: pointer;
+}
+
+.like_button svg {
+    width: 16px;
+}
+
+.like_button.active {
+    background-color: #FF4D4D;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #BCBCBC;
 }
