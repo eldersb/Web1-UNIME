@@ -15,3 +15,6 @@ Atividade 2: Minhas Tarefas - Introdução a CSS
 
 Atividade em Sala: CertifiqueMe
 ° https://eldersb.github.io/Web1-UNIME/CertifiqueMe/index.html
+
+Atividade Oficial 1: ILoveFiles
+° https://eldersb.github.io/Web1-UNIME/oficial1.tar/oficial1/index.html
