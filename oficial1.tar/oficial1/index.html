@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLoveFiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+      <nav class="navbar">
+        <h1 class="titulo">i<b class="tituloRosa">Love</b><i>Files</i></h1>
+        <ul>
+            <li><a href="#">Sobre a plataforma</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+          
+      
+    </header>
+    <main>
+        <section class="content">
+            <article class="entrada-arquivo">
+
+                <h2>Envie seus Arquivos</h2>
+
+                <label class="enviar-arquivo" for="arquivo">
+  
+                   <img class="img-nuvem" src="imgs/Frame.png" alt="Imagem nuvem">
+            
+                    <p>
+                       Arraste e solte seus
+                       <br>
+                       arquivos aqui
+                    </p>
+            
+                    <div class="ou"> <hr class="linha"> <p>ou</p> <hr class="linha"> </div>
+            
+                    <a class="Selecione">Selecione</a>
+            
+                  </label>
+
+                  
+        <input for="arquivo" type="file" name="arquivo" id="arquivo"> 
+               
+            </article>
+            <article class="arquivo-enviado">
+                <h2>Arquivos enviados</h2>
+                <div class="box2">
+                    <div class="opt1">
+                        <img src="imgs/cam-svgrepo-com 1.png" alt="camera">
+                        <div class="em-baixo">
+                            <p>Reuniao_de_planejamento.avi</p>
+                            <p>306,7MB  | 63% - 25 seg. restante</p>
+                            
+                        </div> 
+                        <img src="imgs/trash-2-svgrepo-com 1.png" alt="lixo">
+                    </div>
+                    <div class="opt2">
+                        <img src="imgs/file-corrupted-svgrepo-com 1.png" alt="">
+                        <div class="em-baixo">
+                            <p>Relatório_trimestral_2023.3.pdf</p>
+                            <span class="frase-verm">Falha no envio</span>
+                        </div>
+                        <img src="imgs/reload-svgrepo-com 1.png" alt="recarregar">
+                        <img src="imgs/trash-2-svgrepo-com 1.png" alt="">
+                    </div>
+                    <div class="opt3">
+                        <img src="imgs/camera-svgrepo-com 1.png" alt="">
+                        <div class="em-baixo">
+                            <p>Confraternizacao_12_2023.jpg</p>
+                            <p>5,1MB</p>
+                        </div>
+                        <img src="imgs/trash-2-svgrepo-com 1.png" alt="lixo">
+                    </div>
+
+                    <div id="btn">
+                        <button class="Cancelar">Cancelar e limpar fila</button>
+                        <button class="Continuar">Continuar</button>
+                    </div> 
+                </div>
+
+                 
+            </article>
+        </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p>ILove Files - Projeto desenvolvido por Fulano e Beltrano 
+            <br> Desenvolvimento Web 1 - Centro Universitário UNIME - Lauro de Freitas / BA 
+            <br> Docente: Paulo Reis dos Santos</p> 
+    </footer>
+</body>
+</html>
