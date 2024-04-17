@@ -6,7 +6,8 @@
  Neste repositório, você encontrará soluções para diversos exercícios e projetos de desenvolvimento web. A disciplina aborda tópicos como HTML, CSS, Javascript e muito mais.
 
  Atividades
- _________________________________________________________________________________________________________________________________
+------------------------------------------------------------------------------------------------------------------------------------
+
 Atividade 1: Prêmio - Introdução a HTML
  ° https://eldersb.github.io/Web1-UNIME/Atividade01/index.html
  
