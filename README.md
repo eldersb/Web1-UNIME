@@ -20,3 +20,7 @@
 
 **Atividade Oficial 1: ILoveFiles**
 * https://eldersb.github.io/Web1-UNIME/oficial1.tar/oficial1/index.html
+
+** Atividade Complementar: Rick And Morty Search - Consumindo API's
+* https://github.com/eldersb/Rick-And-Morty-Search  (Código-fonte)
+* https://eldersb.github.io/Rick-And-Morty-Search/  (Github pages)
